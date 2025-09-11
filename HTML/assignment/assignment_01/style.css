@@ -1,0 +1,161 @@
+/* Reset some default styles */
+body, h1, h3, p, ul, ol, table {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #34495e;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.contact ul {
+  list-style: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+.tv-shows, .skills, .project, .hobbies, .education {
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education th, .education td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.skills ol, .hobbies ul {
+  margin-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: #2196f3;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
